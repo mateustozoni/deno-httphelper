@@ -1,5 +1,5 @@
-import { Module } from "../../lib/decorators/module.decorator.ts";
-import { ModuleClass } from "../../lib/module.ts";
+import { Module } from "https://deno.land/x/httphelper@0.1.0/lib/decorators/module.decorator.ts";
+import { ModuleClass } from "https://deno.land/x/httphelper@0.1.0/lib/module.ts";
 import { ExampleModuleController } from "./modules/example-module/example-module.controller.ts";
 import { ExampleModuleModule } from "./modules/example-module/example-module.module.ts";
 

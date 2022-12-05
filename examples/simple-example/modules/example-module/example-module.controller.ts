@@ -1,5 +1,5 @@
-import { Controller, Get } from "../../../../lib/decorators/controller-module.decorator.ts";
-import { Context } from "../../../../lib/imports.ts";
+import { Controller, Get } from "https://deno.land/x/httphelper@0.1.0/lib/decorators/controller-module.decorator.ts";
+import { Context } from "https://deno.land/x/httphelper@0.1.0/lib/imports.ts";
 
 @Controller('hello')
 export class ExampleModuleController {

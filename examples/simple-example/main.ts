@@ -1,5 +1,4 @@
-import { Application } from "https://deno.land/x/oak@v11.1.0/application.ts";
-import { env } from "../../lib/imports.ts";
+import { Application, env } from "https://deno.land/x/httphelper@0.1.0/lib/imports.ts";
 import { AppModule } from "./app.module.ts";
 
 const port = +(env?.PORT || 8000);
